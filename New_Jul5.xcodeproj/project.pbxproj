@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6EA87B815B3339100A0EEDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EA87B715B3339100A0EEDF /* UIKit.framework */; };
+		A6EA87BA15B3339100A0EEDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EA87B915B3339100A0EEDF /* Foundation.framework */; };
+		A6EA87BC15B3339100A0EEDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EA87BB15B3339100A0EEDF /* CoreGraphics.framework */; };
+		A6EA87C215B3339100A0EEDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6EA87C015B3339100A0EEDF /* InfoPlist.strings */; };
+		A6EA87C415B3339100A0EEDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA87C315B3339100A0EEDF /* main.m */; };
+		A6EA87C815B3339100A0EEDF /* GuitarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA87C715B3339100A0EEDF /* GuitarAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6EA87B315B3339100A0EEDF /* New_Jul5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = New_Jul5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6EA87B715B3339100A0EEDF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6EA87B915B3339100A0EEDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6EA87BB15B3339100A0EEDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6EA87BF15B3339100A0EEDF /* New_Jul5-Info.plist */ = {isa = PBXFileReference; path = "New_Jul5-Info.plist"; sourceTree = "<group>"; };
+		A6EA87C115B3339100A0EEDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6EA87C315B3339100A0EEDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6EA87C515B3339100A0EEDF /* New_Jul5-Prefix.pch */ = {isa = PBXFileReference; path = "New_Jul5-Prefix.pch"; sourceTree = "<group>"; };
+		A6EA87C615B3339100A0EEDF /* GuitarAppDelegate.h */ = {isa = PBXFileReference; path = GuitarAppDelegate.h; sourceTree = "<group>"; };
+		A6EA87C715B3339100A0EEDF /* GuitarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuitarAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6EA87B015B3339100A0EEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EA87B815B3339100A0EEDF /* UIKit.framework in Frameworks */,
+				A6EA87BA15B3339100A0EEDF /* Foundation.framework in Frameworks */,
+				A6EA87BC15B3339100A0EEDF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6EA87A815B3339100A0EEDF = {
+			isa = PBXGroup;
+			children = (
+				A6EA87BD15B3339100A0EEDF /* New_Jul5 */,
+				A6EA87B615B3339100A0EEDF /* Frameworks */,
+				A6EA87B415B3339100A0EEDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6EA87B415B3339100A0EEDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6EA87B315B3339100A0EEDF /* New_Jul5.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6EA87B615B3339100A0EEDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6EA87B715B3339100A0EEDF /* UIKit.framework */,
+				A6EA87B915B3339100A0EEDF /* Foundation.framework */,
+				A6EA87BB15B3339100A0EEDF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6EA87BD15B3339100A0EEDF /* New_Jul5 */ = {
+			isa = PBXGroup;
+			children = (
+				A6EA87C615B3339100A0EEDF /* GuitarAppDelegate.h */,
+				A6EA87C715B3339100A0EEDF /* GuitarAppDelegate.m */,
+				A6EA87BE15B3339100A0EEDF /* Supporting Files */,
+			);
+			path = New_Jul5;
+			sourceTree = "<group>";
+		};
+		A6EA87BE15B3339100A0EEDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6EA87BF15B3339100A0EEDF /* New_Jul5-Info.plist */,
+				A6EA87C015B3339100A0EEDF /* InfoPlist.strings */,
+				A6EA87C315B3339100A0EEDF /* main.m */,
+				A6EA87C515B3339100A0EEDF /* New_Jul5-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6EA87B215B3339100A0EEDF /* New_Jul5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6EA87CB15B3339100A0EEDF /* Build configuration list for PBXNativeTarget "New_Jul5" */;
+			buildPhases = (
+				A6EA87AF15B3339100A0EEDF /* Sources */,
+				A6EA87B015B3339100A0EEDF /* Frameworks */,
+				A6EA87B115B3339100A0EEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = New_Jul5;
+			productName = New_Jul5;
+			productReference = A6EA87B315B3339100A0EEDF /* New_Jul5.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6EA87AA15B3339100A0EEDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Guitar;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = CUNY;
+			};
+			buildConfigurationList = A6EA87AD15B3339100A0EEDF /* Build configuration list for PBXProject "New_Jul5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6EA87A815B3339100A0EEDF;
+			productRefGroup = A6EA87B415B3339100A0EEDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6EA87B215B3339100A0EEDF /* New_Jul5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6EA87B115B3339100A0EEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EA87C215B3339100A0EEDF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6EA87AF15B3339100A0EEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EA87C415B3339100A0EEDF /* main.m in Sources */,
+				A6EA87C815B3339100A0EEDF /* GuitarAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6EA87C015B3339100A0EEDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6EA87C115B3339100A0EEDF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6EA87C915B3339100A0EEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6EA87CA15B3339100A0EEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6EA87CC15B3339100A0EEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "New_Jul5/New_Jul5-Prefix.pch";
+				INFOPLIST_FILE = "New_Jul5/New_Jul5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6EA87CD15B3339100A0EEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "New_Jul5/New_Jul5-Prefix.pch";
+				INFOPLIST_FILE = "New_Jul5/New_Jul5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6EA87AD15B3339100A0EEDF /* Build configuration list for PBXProject "New_Jul5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EA87C915B3339100A0EEDF /* Debug */,
+				A6EA87CA15B3339100A0EEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6EA87CB15B3339100A0EEDF /* Build configuration list for PBXNativeTarget "New_Jul5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EA87CC15B3339100A0EEDF /* Debug */,
+				A6EA87CD15B3339100A0EEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6EA87AA15B3339100A0EEDF /* Project object */;
+}
