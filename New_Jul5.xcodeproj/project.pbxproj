@@ -7,25 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6407B9115B610C600E1CAF5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6407B9015B610C600E1CAF5 /* AudioToolbox.framework */; };
+		A6407B9815B6296700E1CAF5 /* Ate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6407B9715B6296700E1CAF5 /* Ate.m */; };
+		A6407B9B15B6353700E1CAF5 /* Dynamite.m in Sources */ = {isa = PBXBuildFile; fileRef = A6407B9A15B6353700E1CAF5 /* Dynamite.m */; };
+		A6407B9E15B6354800E1CAF5 /* Good.m in Sources */ = {isa = PBXBuildFile; fileRef = A6407B9D15B6354800E1CAF5 /* Good.m */; };
+		A6407BA115B6356E00E1CAF5 /* Bye.m in Sources */ = {isa = PBXBuildFile; fileRef = A6407BA015B6356D00E1CAF5 /* Bye.m */; };
+		A6407BA415B6358000E1CAF5 /* Ed.m in Sources */ = {isa = PBXBuildFile; fileRef = A6407BA315B6358000E1CAF5 /* Ed.m */; };
+		A6833E6415B59DAF001470B3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6833E6315B59DAF001470B3 /* AVFoundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		A6D7D8B515C1CEB30010F339 /* guitar_icon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A6D7D8B415C1CEB30010F339 /* guitar_icon.jpeg */; };
 		A6EA87B815B3339100A0EEDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EA87B715B3339100A0EEDF /* UIKit.framework */; };
 		A6EA87BA15B3339100A0EEDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EA87B915B3339100A0EEDF /* Foundation.framework */; };
 		A6EA87BC15B3339100A0EEDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EA87BB15B3339100A0EEDF /* CoreGraphics.framework */; };
 		A6EA87C215B3339100A0EEDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6EA87C015B3339100A0EEDF /* InfoPlist.strings */; };
 		A6EA87C415B3339100A0EEDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA87C315B3339100A0EEDF /* main.m */; };
 		A6EA87C815B3339100A0EEDF /* GuitarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA87C715B3339100A0EEDF /* GuitarAppDelegate.m */; };
+		A6EA87D715B333FA00A0EEDF /* 1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A6EA87CE15B333FA00A0EEDF /* 1.m4a */; };
+		A6EA87D815B333FA00A0EEDF /* 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A6EA87CF15B333FA00A0EEDF /* 2.m4a */; };
+		A6EA87D915B333FA00A0EEDF /* 3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A6EA87D015B333FA00A0EEDF /* 3.m4a */; };
+		A6EA87DA15B333FA00A0EEDF /* 4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A6EA87D115B333FA00A0EEDF /* 4.m4a */; };
+		A6EA87DB15B333FA00A0EEDF /* 5.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A6EA87D215B333FA00A0EEDF /* 5.m4a */; };
+		A6EA87DC15B333FA00A0EEDF /* 6.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A6EA87D315B333FA00A0EEDF /* 6.m4a */; };
+		A6EA87DD15B333FA00A0EEDF /* guitar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6EA87D415B333FA00A0EEDF /* guitar.jpg */; };
+		A6EA87DE15B333FA00A0EEDF /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA87D615B333FA00A0EEDF /* View.m */; };
+		A6EA87E115B3350900A0EEDF /* Eddy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA87E015B3350900A0EEDF /* Eddy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A6407B9015B610C600E1CAF5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A6407B9615B6296700E1CAF5 /* Ate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ate.h; sourceTree = "<group>"; };
+		A6407B9715B6296700E1CAF5 /* Ate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ate.m; sourceTree = "<group>"; };
+		A6407B9915B6353700E1CAF5 /* Dynamite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dynamite.h; sourceTree = "<group>"; };
+		A6407B9A15B6353700E1CAF5 /* Dynamite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dynamite.m; sourceTree = "<group>"; };
+		A6407B9C15B6354800E1CAF5 /* Good.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Good.h; path = ../Good.h; sourceTree = "<group>"; };
+		A6407B9D15B6354800E1CAF5 /* Good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Good.m; path = ../Good.m; sourceTree = "<group>"; };
+		A6407B9F15B6356D00E1CAF5 /* Bye.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bye.h; sourceTree = "<group>"; };
+		A6407BA015B6356D00E1CAF5 /* Bye.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bye.m; sourceTree = "<group>"; };
+		A6407BA215B6357F00E1CAF5 /* Ed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ed.h; sourceTree = "<group>"; };
+		A6407BA315B6358000E1CAF5 /* Ed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ed.m; sourceTree = "<group>"; };
+		A6833E6315B59DAF001470B3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A6D7D8B415C1CEB30010F339 /* guitar_icon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guitar_icon.jpeg; sourceTree = "<group>"; };
 		A6EA87B315B3339100A0EEDF /* New_Jul5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = New_Jul5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6EA87B715B3339100A0EEDF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A6EA87B915B3339100A0EEDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A6EA87BB15B3339100A0EEDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A6EA87BF15B3339100A0EEDF /* New_Jul5-Info.plist */ = {isa = PBXFileReference; path = "New_Jul5-Info.plist"; sourceTree = "<group>"; };
+		A6EA87BF15B3339100A0EEDF /* New_Jul5-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "New_Jul5-Info.plist"; sourceTree = "<group>"; };
 		A6EA87C115B3339100A0EEDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A6EA87C315B3339100A0EEDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A6EA87C515B3339100A0EEDF /* New_Jul5-Prefix.pch */ = {isa = PBXFileReference; path = "New_Jul5-Prefix.pch"; sourceTree = "<group>"; };
-		A6EA87C615B3339100A0EEDF /* GuitarAppDelegate.h */ = {isa = PBXFileReference; path = GuitarAppDelegate.h; sourceTree = "<group>"; };
+		A6EA87C515B3339100A0EEDF /* New_Jul5-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "New_Jul5-Prefix.pch"; sourceTree = "<group>"; };
+		A6EA87C615B3339100A0EEDF /* GuitarAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuitarAppDelegate.h; sourceTree = "<group>"; };
 		A6EA87C715B3339100A0EEDF /* GuitarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuitarAppDelegate.m; sourceTree = "<group>"; };
+		A6EA87CE15B333FA00A0EEDF /* 1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.m4a; sourceTree = "<group>"; };
+		A6EA87CF15B333FA00A0EEDF /* 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.m4a; sourceTree = "<group>"; };
+		A6EA87D015B333FA00A0EEDF /* 3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.m4a; sourceTree = "<group>"; };
+		A6EA87D115B333FA00A0EEDF /* 4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4.m4a; sourceTree = "<group>"; };
+		A6EA87D215B333FA00A0EEDF /* 5.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 5.m4a; sourceTree = "<group>"; };
+		A6EA87D315B333FA00A0EEDF /* 6.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 6.m4a; sourceTree = "<group>"; };
+		A6EA87D415B333FA00A0EEDF /* guitar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guitar.jpg; sourceTree = "<group>"; };
+		A6EA87D515B333FA00A0EEDF /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		A6EA87D615B333FA00A0EEDF /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		A6EA87DF15B3350900A0EEDF /* Eddy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Eddy.h; sourceTree = "<group>"; };
+		A6EA87E015B3350900A0EEDF /* Eddy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Eddy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6407B9115B610C600E1CAF5 /* AudioToolbox.framework in Frameworks */,
+				A6833E6415B59DAF001470B3 /* AVFoundation.framework in Frameworks */,
 				A6EA87B815B3339100A0EEDF /* UIKit.framework in Frameworks */,
 				A6EA87BA15B3339100A0EEDF /* Foundation.framework in Frameworks */,
 				A6EA87BC15B3339100A0EEDF /* CoreGraphics.framework in Frameworks */,
@@ -62,6 +105,8 @@
 		A6EA87B615B3339100A0EEDF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A6407B9015B610C600E1CAF5 /* AudioToolbox.framework */,
+				A6833E6315B59DAF001470B3 /* AVFoundation.framework */,
 				A6EA87B715B3339100A0EEDF /* UIKit.framework */,
 				A6EA87B915B3339100A0EEDF /* Foundation.framework */,
 				A6EA87BB15B3339100A0EEDF /* CoreGraphics.framework */,
@@ -72,9 +117,31 @@
 		A6EA87BD15B3339100A0EEDF /* New_Jul5 */ = {
 			isa = PBXGroup;
 			children = (
+				A6407B9C15B6354800E1CAF5 /* Good.h */,
+				A6D7D8B415C1CEB30010F339 /* guitar_icon.jpeg */,
+				A6407B9D15B6354800E1CAF5 /* Good.m */,
+				A6EA87CE15B333FA00A0EEDF /* 1.m4a */,
+				A6EA87CF15B333FA00A0EEDF /* 2.m4a */,
+				A6EA87D015B333FA00A0EEDF /* 3.m4a */,
+				A6EA87D115B333FA00A0EEDF /* 4.m4a */,
+				A6EA87D215B333FA00A0EEDF /* 5.m4a */,
+				A6EA87D315B333FA00A0EEDF /* 6.m4a */,
+				A6EA87D415B333FA00A0EEDF /* guitar.jpg */,
+				A6EA87D515B333FA00A0EEDF /* View.h */,
+				A6EA87D615B333FA00A0EEDF /* View.m */,
 				A6EA87C615B3339100A0EEDF /* GuitarAppDelegate.h */,
 				A6EA87C715B3339100A0EEDF /* GuitarAppDelegate.m */,
 				A6EA87BE15B3339100A0EEDF /* Supporting Files */,
+				A6EA87DF15B3350900A0EEDF /* Eddy.h */,
+				A6EA87E015B3350900A0EEDF /* Eddy.m */,
+				A6407B9615B6296700E1CAF5 /* Ate.h */,
+				A6407B9715B6296700E1CAF5 /* Ate.m */,
+				A6407B9915B6353700E1CAF5 /* Dynamite.h */,
+				A6407B9A15B6353700E1CAF5 /* Dynamite.m */,
+				A6407B9F15B6356D00E1CAF5 /* Bye.h */,
+				A6407BA015B6356D00E1CAF5 /* Bye.m */,
+				A6407BA215B6357F00E1CAF5 /* Ed.h */,
+				A6407BA315B6358000E1CAF5 /* Ed.m */,
 			);
 			path = New_Jul5;
 			sourceTree = "<group>";
@@ -143,6 +210,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6EA87C215B3339100A0EEDF /* InfoPlist.strings in Resources */,
+				A6EA87D715B333FA00A0EEDF /* 1.m4a in Resources */,
+				A6EA87D815B333FA00A0EEDF /* 2.m4a in Resources */,
+				A6EA87D915B333FA00A0EEDF /* 3.m4a in Resources */,
+				A6EA87DA15B333FA00A0EEDF /* 4.m4a in Resources */,
+				A6EA87DB15B333FA00A0EEDF /* 5.m4a in Resources */,
+				A6EA87DC15B333FA00A0EEDF /* 6.m4a in Resources */,
+				A6EA87DD15B333FA00A0EEDF /* guitar.jpg in Resources */,
+				A6D7D8B515C1CEB30010F339 /* guitar_icon.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +230,13 @@
 			files = (
 				A6EA87C415B3339100A0EEDF /* main.m in Sources */,
 				A6EA87C815B3339100A0EEDF /* GuitarAppDelegate.m in Sources */,
+				A6EA87DE15B333FA00A0EEDF /* View.m in Sources */,
+				A6EA87E115B3350900A0EEDF /* Eddy.m in Sources */,
+				A6407B9815B6296700E1CAF5 /* Ate.m in Sources */,
+				A6407B9B15B6353700E1CAF5 /* Dynamite.m in Sources */,
+				A6407B9E15B6354800E1CAF5 /* Good.m in Sources */,
+				A6407BA115B6356E00E1CAF5 /* Bye.m in Sources */,
+				A6407BA415B6358000E1CAF5 /* Ed.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +340,7 @@
 				A6EA87CD15B3339100A0EEDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

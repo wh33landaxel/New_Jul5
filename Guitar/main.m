@@ -1,8 +1,8 @@
 //
 //  main.m
-//  Jul5
+//  Guitar
 //
-//  Created by Axel Nunez on 7/12/12.
+//  Created by Axel Nunez on 7/17/12.
 //  Copyright (c) 2012 CUNY. All rights reserved.
 //
 
